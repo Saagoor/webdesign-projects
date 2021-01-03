@@ -1,0 +1,93 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  background-color: #efefef;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select {
+  padding: 8px 10px;
+  font-size: 15px;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  color: #333333;
+  background-color: #f5f6f6;
+}
+.btn-is-green button.c-button {
+  background-color: #00d236 !important;
+  border-color: #00d236 !important;
+  font-weight: bold;
+}
+.text-green {
+  color: #00d236;
+}
+
+.page-header.white-glove {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  background-position: right center;
+}
+.less-dark-opacity {
+  background-color: rgba(237, 237, 237, 0.95);
+  color: #fff;
+}
+
+.dark-opacity {
+  background-color: rgba(237, 237, 237, 0.75);
+}
+
+.header-logo img {
+  max-height: 120px;
+  width: auto;
+}
+
+/* Page form */
+.page-form {
+  border: none;
+  background-color: transparent;
+}
+.page-form .card-header {
+  padding: 18px 16px 20px;
+  background-color: rgba(0, 210, 54, 0.8);
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}
+.page-form .card-body {
+  background-color: rgba(33, 34, 42, 0.85);
+}
+
+.page-form .cognito.c-sml .c-sml-span-12 .c-field.c-name .c-editor {
+  width: 50% !important;
+}
+
+.page-form .cognito .c-label {
+  margin-bottom: 2px;
+}
+.page-form .cognito > div {
+  height: 0;
+  overflow: hidden;
+}
+.text-little-light {
+  opacity: 0.8;
+}
+
+.icon {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100px;
+  background-color: #ddd;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.icon img {
+  width: 50%;
+  height: 50%;
+}
